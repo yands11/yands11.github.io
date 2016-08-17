@@ -5,6 +5,6 @@ layout: about
 Hello, my name is Youngseok Park.
 
 # Skill
-* android
+* Android
 * Java
 * git
