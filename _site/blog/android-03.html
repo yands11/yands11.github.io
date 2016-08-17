@@ -32,12 +32,17 @@
     	<p></p>
     </div>
     <div class="post__content"?>
-        <h2 id="intent">Intent</h2>
-<p>아래와 같은 것들이 서로 통신할 때 Data를 전달해준다<br />
-* <strong>Activity</strong> to <strong>Activity</strong> or <strong>Service</strong> or <strong>BroadcastReceiver</strong><br />
-* <strong>Application</strong> to <strong>Application</strong></p>
+        <h1 id="intent">Intent</h1>
+
+<p>아래와 같은 것들이 서로 통신할 때 Data를 전달해준다</p>
+
+<ul>
+  <li><strong>Activity</strong> to <strong>Activity</strong> or <strong>Service</strong> or <strong>BroadcastReceiver</strong></li>
+  <li><strong>Application</strong> to <strong>Application</strong></li>
+</ul>
 
 <h3 id="intent-1">명시적 Intent</h3>
+
 <p>ex. NewActivity를 띄울 때</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>Intent intent = new Intent(this, NewActivity.class);
@@ -46,6 +51,7 @@ startActivity(intent);
 </div>
 
 <h3 id="intent-2">암시적 Intent</h3>
+
 <p>주로 App to App<br />
 ex. text message 를 보낼 때 (이 기능이 가능한 앱을 선택할 수 있음)</p>
 
