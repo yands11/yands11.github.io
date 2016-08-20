@@ -48,12 +48,12 @@ for the Jekyll site. The defaults are:
 
 ```yml
 # Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title: Dot.2_line
+email: yands11@gmail.com
+author: dot2line
+description: ""
 baseurl: ""
-url: "http://pixyll.com"
+url: "http://yands11.github.io"
 
 # Build settings
 markdown: kramdown
