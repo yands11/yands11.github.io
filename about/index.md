@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About ME
 ---
 
 # 안녕하세요 / Hello / 你好  
