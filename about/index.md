@@ -12,10 +12,21 @@ yands11@gmail.com
 [GitHub](https://github.com/yands11),
 [Facebook](https://www.facebook.com/youngseok.p)  
 
+-----
+
+## WORK EXPERIENCE  
+
+#### [VOLO](https://withvolo.com/)  
+  Android / QA  
+
+-----
+
 ## EDUCATION  
 
 #### Mar. 2010 - Aug. 2016 INCHEON NATIONAL UNIVERSITY
   Bachelor of Physics
+
+-----
 
 ## SKILLS  
 
@@ -30,10 +41,9 @@ yands11@gmail.com
 
 
 #### ETC
-  * GitHub  
+  * Git, GitHub  
 
-## WORK EXPERIENCE  
-*   
+-----
 
 ## PROJECTS  
 *  
