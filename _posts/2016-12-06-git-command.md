@@ -53,7 +53,7 @@ git branch -r
 ```
 
 ### Remote Branch 삭제(변동) 후, Local에서 Remote branch 목록 갱신하기
-(주로 GitHub 에서 branch 삭제 후 local 목록 조회 시 남아있는 상황)
+(주로 GitHub 에서 branch 삭제 후 local 목록 조회 시 남아있는 상황)  
 ```
 git remote update --prune
 ```
