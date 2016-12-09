@@ -1,13 +1,14 @@
-title: Brume
-author: Aigars Dzerviniks
-description: It's simple. It's easy to use. It's a Jekyll theme.
+# Site settings
+title:       dot2line Blog
+author:      dot2line
+description: ":rocket: A responsive Jekyll theme based on my personal internet site"
+baseurl:     "/blog"
+url:         "https://yands11.github.io"
 
-highlighter: null
-permalink: /:title
+# Social Links
+email:            yands11@gmail.com
+github_username:  yands11
 
-url:
-baseurl:
-
-sass:
-  sass_dir: public/css
-  style: :compressed
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About ME
+permalink: /about/
 ---
 
 # 안녕하세요 / Hello / 你好  
