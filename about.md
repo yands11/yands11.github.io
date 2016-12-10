@@ -18,14 +18,15 @@ yands11@gmail.com
 ## WORK EXPERIENCE  
 
 #### [VOLO](https://withvolo.com/)  
-  Android / QA  
+  * Android  
+  * QA    
 
 -----
 
 ## EDUCATION  
 
-#### Mar. 2010 - Aug. 2016 INCHEON NATIONAL UNIVERSITY
-  Bachelor of Physics
+#### INCHEON NATIONAL UNIVERSITY (Mar. 2010 - Aug. 2016)  
+  * Bachelor of Physics
 
 -----
 
@@ -35,7 +36,7 @@ yands11@gmail.com
   * JAVA, Python, C  
 
 #### Frameworks
-  * Node.js, Express  
+  * Android, Node.js, Express  
 
 #### IDE
   * Android Studio, Eclipse, Atom, Slack...  
@@ -47,4 +48,4 @@ yands11@gmail.com
 -----
 
 ## PROJECTS  
-*  
+  * Soon....  
