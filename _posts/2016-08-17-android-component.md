@@ -27,13 +27,14 @@ title: Android - Components
 (AndroidManifest.xml) 안 그러면 오류난다
 
 {% highlight html %}
-<manifest ... >
-  <application ... >
-      <activity android:name=".ExampleActivity" />
-      ...
-  </application ... >
-  ...
-</manifest >
+<manifest>
+    <!--...-->
+    <application>
+        <activity android:name=".ExampleActivity" />
+        <!--...-->
+    </application>
+    <!--...-->
+</manifest>
 {% endhighlight %}
 
 ### 처음으로 뜨는 Activity에는 꼭 있어야 하는 Manifest element  
