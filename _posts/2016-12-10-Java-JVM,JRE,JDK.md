@@ -27,4 +27,4 @@ JRE, JVM, Javac(컴파일러) 등을 포함하는 Kit이다.
 
 ## JDK ⊃ JRE ⊃ JVM
 
-cf) https://wikidocs.net/257
+cf) [점프투자바 - JVM, JRE, JDK의 차이](https://wikidocs.net/257)
