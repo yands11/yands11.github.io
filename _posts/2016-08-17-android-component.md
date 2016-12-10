@@ -26,7 +26,7 @@ title: Android - Components
 
 (AndroidManifest.xml) 안 그러면 오류난다
 
-`  
+{% highlight html %}
 <manifest ... >
   <application ... >
       <activity android:name=".ExampleActivity" />
@@ -34,20 +34,20 @@ title: Android - Components
   </application ... >
   ...
 </manifest >
-`
+{% endhighlight %}
 
 ### 처음으로 뜨는 Activity에는 꼭 있어야 하는 Manifest element  
 
 (AndroidManifest.xml)  
 
-`  
+{% highlight html %}
 <activity android:name=".ExampleActivity" android:icon="@drawable/app_icon">
     <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
     </intent-filter>
 </activity>
-`
+{% endhighlight %}
 
 ### AppCompatActivity?  
 
