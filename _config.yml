@@ -1,7 +1,7 @@
 # Site settings
 title:       dot2line Blog
 author:      dot2line
-description: ":rocket: A responsive Jekyll theme based on my personal internet site"
+description: "dot2line의 Blog : 잡다한 포스팅"
 baseurl:     ""
 url:         "https://yands11.github.io"
 
