@@ -4,4 +4,3 @@
 
 * Android
 * Java
-* MAC OS
