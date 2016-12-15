@@ -33,14 +33,14 @@ title: Git - Command 정리
 ### 바로 이전 commit에 **파일 추가** 해서 수정하고 싶을 때  
 커밋하고 나서 아 '아까 커밋에 이 파일들 더 들어가야 하는데?'  
 '아까 커밋에 이 내용 수정되어야 하는데?' 하는 경우!!!!  
-일단 수정완료 후, 해당 파일을 stage에 올린다.
+일단 수정완료 후, 해당 파일을 stage에 올린다.  
 `git add --all`  
 그리고 나서 이전 커밋을 수정한다.  
 `git commit --amend`  
 (위와 같이 메시지도 수정하고 싶으면 수정하고 :wq 로 vi 빠져나오기)  
 자! 이제 로컬에는 커밋이 수정되었다.  
 이미 remote branch에 push를 했다고?  
-그렇다면 강제로 다시한번 push해 주면 된다.
+그렇다면 강제로 다시한번 push해 주면 된다.  
 `git push <remote-name> <remote-branch_name> --force`  
 
 ### Branch 전체 목록 보기
