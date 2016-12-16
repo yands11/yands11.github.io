@@ -12,23 +12,23 @@ title: Git - Command 정리
 그래서 이참에 자꾸 까먹는 command들을 list-up하고 꾸준히 추가해 보도록 하겠습니다. 👍    
 
 ### 현재 상태 확인하기  
-`git status`
+`git status`  
 
 ### Staged 상태로 올리기  
-`git add <file-name>`
+`git add <file-name>`  
 
 ### 모든 파일 staged 상태로 올리기
-`git add --all`
+`git add --all`  
 
 ### commit message 넣어서 하기
-`git commit -m "<commit-message>"`
+`git commit -m "<commit-message>"`  
 
 ### 이전 X개 commit  지우기
-`git reset --hard HEAD~X`
+`git reset --hard HEAD~X`  
 
 ### 바로 이전 commit **메시지만** 수정
-`git commit --amend`
-(수정 후 :wq 로 vi 빠져나오기)  
+`git commit --amend`  
+(수정 후 :wq 로 vi 빠져나오기)    
 
 ### 바로 이전 commit에 **파일 추가** 해서 수정하고 싶을 때  
 커밋하고 나서 아 '아까 커밋에 이 파일들 더 들어가야 하는데?'  
@@ -43,19 +43,22 @@ title: Git - Command 정리
 그렇다면 강제로 다시한번 push해 주면 된다.  
 `git push <remote-name> <remote-branch_name> --force`  
 
-### Branch 전체 목록 보기
-`git branch -a`
+### Local Branch 이름 변경  
+`git branch -m <current-branch-name> <new-branch_name>`  
 
-### Remote Branch 목록 보기
-`git branch -r`
+### Branch 전체 목록 보기  
+`git branch -a`  
+
+### Remote Branch 목록 보기  
+`git branch -r`  
 
 ### Remote Branch 삭제(변동) 후, Local에서 Remote branch 목록 갱신하기  
 (주로 GitHub 에서 branch 삭제 후 local 목록 조회 시 남아있는 상황)  
 
-`git remote update --prune`
+`git remote update --prune`  
 
 ### Remote Branch 생성
-`git push <remote-name> <new-remote-branch-name>`
+`git push <remote-name> <new-remote-branch-name>`  
 
 ### Remote Branch 삭제
 `git push <remote-name> --delete <branch-name>`  
