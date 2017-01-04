@@ -57,13 +57,32 @@ title: Git - Command 정리
 
 `git remote update --prune`  
 
-### Remote Branch 생성
+### Remote Branch 생성  
 `git push <remote-name> <new-remote-branch-name>`  
 
-### Remote Branch 삭제
+### Remote Branch 삭제  
 `git push <remote-name> --delete <branch-name>`  
 
 `git push <remote-name> :<branch-name>`
 
-### Remote Branch를 Local Branch로 가져오기
+### Remote Branch를 Local Branch로 가져오기  
 `git checkout -b <new-local-branch-name> <remote-branch-name>`
+
+### 현재 상태 Stash 스택에 담기  
+커밋하기도 애매하고 잠깐 이 상황을 어따 담아뒀다가 나중에 다시 복구하고 싶을 때!  
+스태쉬라는 걸 사용하는데 이름을 정해서 Stash 스택에 담아둔다.  
+`git stash save <stash_name>`  
+
+### Stash 복구  
+다른 작업을 마치고 나서 가장 최근에 담아뒀던 것을 복구하고 싶다면 이것을 사용하면 된다.  
+`git stash apply <stash_name>`    
+이거 말고 간단하게 하나만 담아뒀다면 아래 방법을 사용해도 된다. 주의할 것은 pop은 가져오고나서 스택에서 사라진다.   
+`git stash pop`  
+
+### Stash 스택 상태 보기  
+담아둔 것들이 뭐가 있는지 Stash 스택을 볼 수 있다  
+`git stash list`  
+
+### Stash 초기화  
+stash 스택을 다 날리고 싶다면.  
+`git stash clear`
