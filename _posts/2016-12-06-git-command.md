@@ -20,6 +20,11 @@ title: Git - Command 정리
 ### 모든 파일 staged 상태로 올리기
 `git add --all`  
 
+### hunk라는 단위로 쪼개서 확인하면서 추가하기  
+`git add -p`  
+이렇게 하면 add --all 하면서 무심결에 들어간 실수한 코드들을 하나씩 하나씩 확인할 수 있다.  
+하지만 꽤나 귀찮다...ㅎㅎ  
+
 ### commit message 넣어서 하기
 `git commit -m "<commit-message>"`  
 
