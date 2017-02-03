@@ -9,10 +9,19 @@ title: Git - Command 정리
 
 얼마 되지는 않았지만 git으로 프로젝트 관리를 하는 회사로 옮기게 되었습니다.  
 그전에는 git을 알고 사용(?)하고 있긴했지만, 제대로 아는게 아니었고 커맨드라인에서 쓰는 명령어는 많이 몰랐었어요.  
-그래서 이참에 자꾸 까먹는 command들을 list-up하고 꾸준히 추가해 보도록 하겠습니다. 👍    
+그래서 이참에 자꾸 까먹는 command들을 list-up하고 꾸준히 추가해 보도록 하겠습니다. 👍   
 
 ### 현재 상태 확인하기  
 `git status`  
+
+### commit 이력 보기  
+`git log`
+
+### commit 이력 한 줄씩 깔끔하게 보기  
+`git log --oneline`
+
+### commit 이력 그래프로 보기  
+`git log --graph`
 
 ### Staged 상태로 올리기  
 `git add <file-name>`  
@@ -80,8 +89,9 @@ title: Git - Command 정리
 
 ### Stash 복구  
 다른 작업을 마치고 나서 가장 최근에 담아뒀던 것을 복구하고 싶다면 이것을 사용하면 된다.  
-`git stash apply <stash_name>`    
-이거 말고 간단하게 하나만 담아뒀다면 아래 방법을 사용해도 된다. 주의할 것은 pop은 가져오고나서 스택에서 사라진다.   
+이름이 뭔지 생각 안나면 탭을 누르시오.  
+`git stash apply <stash_name>`   
+이거 말고 간단하게 바로 최근의 것을 가져오는 방법은 아래 방법을 사용해도 된다. 주의할 것은 pop은 가져오고나서 스택에서 사라진다.   
 `git stash pop`  
 
 ### Stash 스택 상태 보기  
