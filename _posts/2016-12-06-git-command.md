@@ -101,3 +101,13 @@ title: Git - Command 정리
 ### Stash 초기화  
 stash 스택을 다 날리고 싶다면.  
 `git stash clear`
+
+### 리모트 저장소 추가하기  
+Github에서 특정 Repository를 Fork해서 작업하다가 변경사항을 동기화 해야할 때가 있다.  
+리모트 저장소에  해당 Repository 주소를 넣어서 upstream이라는 이름으로 리모트저장소를 추가한다.  
+`git remote add upstream <URL>`  
+
+### 리모트 저장소 확인  
+잘 추가가 되었는지 리모트 저장소를 확인해보자.  
+현재 remote Repository 목록을 볼 수 있다.  
+`git remote -v`  
