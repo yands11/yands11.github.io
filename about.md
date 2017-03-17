@@ -17,7 +17,7 @@ yands11@gmail.com
 
 ## WORK EXPERIENCE  
 
-#### [VOLO](https://withvolo.com/)  
+#### [VOLO](https://withvolo.com/) (Oct. 2016 - )  
   * Android  
   * QA    
 
@@ -39,13 +39,14 @@ yands11@gmail.com
   * Android, Node.js, Express  
 
 #### IDE
-  * Android Studio, Eclipse, Atom, Slack...  
+  * Android Studio, Atom  
 
 
 #### ETC
-  * Git, GitHub  
+  * Git, GitHub, JIRA, Trello, Slack  
 
 -----
 
 ## PROJECTS  
-  * Soon....  
+  * [Vocabar](https://github.com/yands11/Vocabar)  
+  Floating Vocabulary App
