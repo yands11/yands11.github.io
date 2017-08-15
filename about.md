@@ -9,15 +9,18 @@ permalink: /about/
 ## MY INFO  
 
 #### 박영석 (Youngseok Park)  
-yands11@gmail.com  
-[GitHub](https://github.com/yands11),
-[Facebook](https://www.facebook.com/youngseok.p)  
+Email : yands11@gmail.com  
+GitHub : [@yands11](https://github.com/yands11)  
+Facebook : [youngseok.p](https://www.facebook.com/youngseok.p)  
 
 -----
 
 ## WORK EXPERIENCE  
 
-#### [VOLO](https://withvolo.com/) (Oct. 2016 - )  
+#### [Flitto](https://www.flitto.com/) (Jul. 2017 - Now)  
+  * Android  
+
+#### [VOLO](https://withvolo.com/) (Oct. 2016 - Jul. 2017)  
   * Android  
   * QA    
 
@@ -41,9 +44,8 @@ yands11@gmail.com
 #### IDE
   * Android Studio, Atom  
 
-
-#### ETC
-  * Git, GitHub, JIRA, Trello, Slack  
+#### Tools
+  * Git, GitHub, Confluence, JIRA, Trello, Slack  
 
 -----
 
