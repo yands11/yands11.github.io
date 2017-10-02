@@ -1,8 +1,11 @@
 ---
 layout: page
-title: About ME
+title: About
+description: Some description.
 permalink: /about/
 ---
+
+<img itemprop="image" class="img-rounded" src="http://cfile8.uf.tistory.com/image/2332584758274E0311737B" alt="dot2line">
 
 # 안녕하세요 / Hello / 你好  
 

@@ -1,15 +1,39 @@
-# Site settings
-title:       dot2line Blog
-author:      dot2line
-description: "dot2line의 Blog : 잡다한 포스팅"
-baseurl:     ""
-url:         "https://yands11.github.io"
+# Site Settings
+title: dot2line | dev blog
+email: yands11@gmail.com
+description: dot2line's dev blog.
+baseurl: ""
+url: "https://yands11.github.io/"
+google_analytics: "UA-XXXXXXXX-X"
 
-# Social Links
-email:            yands11@gmail.com
-github_username:  yands11
-fb_username:      youngseok.p
+# User Settings
+username: dot2line
+user_description: Android Developer
+disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: yands11
+facebook_username: youngseok.p
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
