@@ -37,7 +37,7 @@ Facebook : [youngseok.p](https://www.facebook.com/youngseok.p)
 ## SKILLS  
 
 #### Programming Languages
-  * JAVA, Python, C  
+  * **JAVA**, **Kotlin**, Python, C  
 
 #### Frameworks
   * Android, Node.js, Express  
