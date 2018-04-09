@@ -319,4 +319,4 @@ fun createIntent(intentData: String, intentAction: String) =
 
 ![categorize](https://cdn-images-1.medium.com/max/800/1*pLNnrvgvmG6Mdi0Yw3mdPQ.png)
 
-바라기는, 위의 결정 Tree는 더 함수들을 이해하기 쉽게하고 결정하는 데 쉬워 질 거다. 적절히 함수들의 사용처를 잘 마스터할 수 있을 것이다.
+바라기는, 위의 결정 Tree는 더 함수들을 이해하기 쉽게하고 결정하는 데 쉬워 질 거다. 함수들을 적절하게 사용하는 방법을 잘 마스터할 수 있을 것이다.
