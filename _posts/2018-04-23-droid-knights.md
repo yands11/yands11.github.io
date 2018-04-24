@@ -22,7 +22,7 @@ FragmentManager 도 필요 없고 OnActivityResult 처리도 필요 없는 단�
 
 Android는 UI 관련 작업이 많고, 이는 상태가 있고 그 상태를 사용자에게 표현하는 작업입니다. 하지만 상태 관리는 만만치 않습니다. 이런 상태를 Kotlin의 Sealed Class 를 사용해 보다 쉽고 간결하고 안전하게 관리하는 방법을 공유합니다.
 
-<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" id="talk_frame_440261" mozallowfullscreen="true" src="//speakerdeck.com/player/25a90c6b38324acc91c3ae7499ab6220\" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"></iframe>
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="355" id="talk_frame_440261" mozallowfullscreen="true" src="//speakerdeck.com/player/efd6bd46124345debe7d070af693ccd8\" style="border:0; padding:0; margin:0; background:transparent; margin: 0 auto !important;" webkitallowfullscreen="true" width="425"></iframe>
 
 ### Next Step Architecture (남상균, 정현지)
 
@@ -32,13 +32,13 @@ Android는 UI 관련 작업이 많고, 이는 상태가 있고 그 상태를 사
 
 낯설거나 혹은 익숙하게 사용하더라도 실제 구현 혹은 실제 chaining이 어떻게 동작하는건지 자세하게 모르시는 분들이 많습니다. chaining하여 사용하는 List,Sequence,Observable이 실제 어떻게 구현되어 있고 chaining되는지 각각을 구현코드단까지 분석하여 들어가 이해하고 차이점을 알아봅시다
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 65.2103%;"><iframe src="//speakerdeck.com/player/25a90c6b38324acc91c3ae7499ab6220" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no"></iframe></div>
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="355" id="talk_frame_440261" mozallowfullscreen="true" src="//speakerdeck.com/player/25a90c6b38324acc91c3ae7499ab6220\" style="border:0; padding:0; margin:0; background:transparent; margin: 0 auto !important;" webkitallowfullscreen="true" width="425"></iframe>
 
 ### Paging Library, 그것이 쓰고싶다 (한정일)
 
 AAC의 일부인 Paging Library에 대해서 소개하고, 이를 이용해 점진적으로 데이터를 로드하는 완전히 새로운 방법과 가능성에 대해서 이야기합니다. 동작하는 예제 코드를 통해 페이징 된 데이터를 가져오는 몇몇 사례들과 방법을 살펴볼 수 있습니다.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/r4nK9DePQhqHPz" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/r4nK9DePQhqHPz" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 600px; margin: 0 auto !important;" allowfullscreen> </iframe>
 
 ### Best Practice on Android Instant Apps (김종식)
 
@@ -48,13 +48,13 @@ AAC의 일부인 Paging Library에 대해서 소개하고, 이를 이용해 점�
 
 Guide, Chain 등에서 부터 최신 업데이트된 기능까지! 혼자 알기 아까운 ConstraintLayout, 복잡한 구조도 한방에 멋지게!
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/MzjXP3e2kdrSHU" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/MzjXP3e2kdrSHU" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 600px; margin: 0 auto !important;" allowfullscreen> </iframe>
 
 ### Kotlin 코루틴은 어떻게 동작하는가? (도창욱)
 
 동시성을 처리하기 위해 멀티스레드 기반의 코드를 작성하는 것은 생각보다 많은 주의를 요하며, 특히 스케쥴링을 위한 코드 작성은 더더욱 그렇습니다. 코루틴은 이러한 작업에 있어서 좀 더 쉽게 코드를 작성할 수 있도록 합니다. 코루틴이 어떤 것이고, 코틀린은 이를 어떻게 구현하였는지와 JVM과 안드로이드의 관점에서 어떻게 동작하는 살펴보도록 하겠습니다.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/BGtPLJ41qqWrgp" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/BGtPLJ41qqWrgp" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 600px; margin: 0 auto !important;" allowfullscreen></iframe>
 
 ### Firebase Dynamic Link로 사용자 유입시키기 (박상권)
 
@@ -68,13 +68,13 @@ Guide, Chain 등에서 부터 최신 업데이트된 기능까지! 혼자 알기
 
 RxJava를 적용해보면 예상과는 달리 동작하는 부분도 있고, 잘 될 거 같은데 잘 안 되는 부분이 있습니다. Retry 방법, 스케줄러, 사이드 이펙트를 줄이는 방법, 구독 제거와 관련한 문제 등 개발하면서 신경써야 하는 여러 이슈에 대해서 짚어보고 RxJava를 좀 더 잘 활용할 수 있는 방법을 찾아보려고 합니다.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/3SeANo93gEaMJf" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/3SeANo93gEaMJf" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 600px; margin: 0 auto !important;" allowfullscreen> </iframe>
 
 ### Travis-ci를 이용한 CI/CD 와 도커를 이용한 Jenkins for Android 구성하기 (장인수)
 
 Travis CI 를 이용해서 Github 에 소스에 변경사항이 생기면 Buiild & Test 를 통해서 결과를 slack 에 알림을 주는 방법을 설명합니다. 많은 회사에서 이미 사용중인 Jenkins를 Docker로 이용해서 Android CI/CD를 하는 방법을 소개하고자 합니다.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/6F7p2iAkRFyBMI" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/6F7p2iAkRFyBMI" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 600px; margin: 0 auto !important;" allowfullscreen> </iframe>
 
 ### Android Test (정경호)
 
@@ -88,11 +88,10 @@ Travis CI 를 이용해서 Github 에 소스에 변경사항이 생기면 Buiild
 
 중급 개발자 이후에 걸어야하는 고독한 길.. 빠른 성장 속도를 유지하기 위한 제언. 그리고 이제는 대세가 된 MVP와 MVVM를 현업 프로젝트에서 적용한 예와 적용시 주의해야할 점.
 
-<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="463" id="talk_frame_440098" mozallowfullscreen="true" src="//speakerdeck.com/player/a171429260e6490499d5a35f264c9d41\" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"></iframe>
-
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="355" id="talk_frame_440098" mozallowfullscreen="true" src="//speakerdeck.com/player/a171429260e6490499d5a35f264c9d41\" style="border:0; padding:0; margin:0; background:transparent; margin: 0 auto !important;" webkitallowfullscreen="true" width="425"></iframe>
 
 ### Practical FP in Kotlin (황성현)
 
 안드로이드 앱을 개발할 경우 프레임워크의 한계 또는 작업의 특성상 FP 구현에 어려움을 겪게 된다. 본 발표는 경험을 바탕으로 최대한 프로젝트의 코드베이스를 FP 형태로 작성할 수 있는 실질적인 조언과 생각을 공유하고자 한다. 이 발표를 통해 안드로이드 개발 과정에서 FP 스타일 코드 작성의 어려움이 해소되었으면 한다.
 
-<iframe allowfullscreen="true" allowtransparency="true" frameborder="0" height="596" id="talk_frame_440161" mozallowfullscreen="" src="//speakerdeck.com/player/a171429260e6490499d5a35f264c9d41" style="border:0; padding:0; margin:0; background:transparent;" webkitallowfullscreen="true" width="710"></iframe>
+<iframe allowfullscreen="true" allowtransparency="true" frameborder="0"  height="355" id="talk_frame_440161" mozallowfullscreen="" src="//speakerdeck.com/player/2f153a1096c040b29a46eedf128b88d5" style="border:0; padding:0; margin:0; background:transparent; margin: 0 auto !important;" webkitallowfullscreen="true" width="425"></iframe>
