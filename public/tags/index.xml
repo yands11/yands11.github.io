@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Neverending coding</title>
+    <link>https://dot2line.dev/tags/</link>
+    <description>Recent content in Tags on Neverending coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jun 2021 23:09:09 +0900</lastBuildDate><atom:link href="https://dot2line.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://dot2line.dev/tags/java/</link>
+      <pubDate>Mon, 28 Jun 2021 23:09:09 +0900</pubDate>
+      
+      <guid>https://dot2line.dev/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parcelable</title>
+      <link>https://dot2line.dev/tags/parcelable/</link>
+      <pubDate>Mon, 28 Jun 2021 23:09:09 +0900</pubDate>
+      
+      <guid>https://dot2line.dev/tags/parcelable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serializable</title>
+      <link>https://dot2line.dev/tags/serializable/</link>
+      <pubDate>Mon, 28 Jun 2021 23:09:09 +0900</pubDate>
+      
+      <guid>https://dot2line.dev/tags/serializable/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
