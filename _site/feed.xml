@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-14T22:38:13+09:00</updated><id>/feed.xml</id><title type="html">neon</title><subtitle>Dev log</subtitle><entry><title type="html">Blog Renewal</title><link href="/2021/09/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Blog Renewal" /><published>2021-09-14T22:00:00+09:00</published><updated>2021-09-14T22:00:00+09:00</updated><id>/2021/09/14/welcome-to-jekyll</id><content type="html" xml:base="/2021/09/14/welcome-to-jekyll.html">&lt;h1 id=&quot;header&quot;&gt;Header&lt;/h1&gt;
+&lt;h2 id=&quot;테스트중입니다&quot;&gt;테스트중입니다.&lt;/h2&gt;
+
+&lt;p&gt;테스트중입니다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot; data-lang=&quot;kotlin&quot;&gt;&lt;span class=&quot;k&quot;&gt;suspend&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;bar&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;테스트&lt;/code&gt;중입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://yands11.github.io&quot;&gt;테스트&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="android" /><category term="kotlin" /><summary type="html">Header 테스트중입니다.</summary></entry></feed>
