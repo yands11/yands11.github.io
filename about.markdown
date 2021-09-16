@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-{% highlight kotlin %}
-enum class About {
-    ANDROID, 
-    KOTLIN, 
-    JAVA
-}
-{% endhighlight %}
+## 박영석
+Android Developer
+
+#### 💼 Flitto 2017.07 - 2021.09 
+
+#### 💼 VOLO(SK Techx) 2016.10 - 2017.07
