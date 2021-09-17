@@ -2,7 +2,7 @@
 layout: post
 title:  "Blog Renewal"
 date:   2021-09-14 22:00:00 +0900
-tags: android kotlin
+hash-tag: android kotlin
 ---
 # Header
 ## 테스트중입니다.
