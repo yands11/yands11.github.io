@@ -1,12 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-14T22:38:13+09:00</updated><id>/feed.xml</id><title type="html">neon</title><subtitle>Dev log</subtitle><entry><title type="html">Blog Renewal</title><link href="/2021/09/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Blog Renewal" /><published>2021-09-14T22:00:00+09:00</published><updated>2021-09-14T22:00:00+09:00</updated><id>/2021/09/14/welcome-to-jekyll</id><content type="html" xml:base="/2021/09/14/welcome-to-jekyll.html">&lt;h1 id=&quot;header&quot;&gt;Header&lt;/h1&gt;
-&lt;h2 id=&quot;테스트중입니다&quot;&gt;테스트중입니다.&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-10-16T16:41:10+09:00</updated><id>/feed.xml</id><title type="html">neon</title><subtitle>Dev log</subtitle><entry><title type="html">jenv로 Java 버전을 관리해보자</title><link href="/2021/10/16/jenv-setting.html" rel="alternate" type="text/html" title="jenv로 Java 버전을 관리해보자" /><published>2021-10-16T16:00:00+09:00</published><updated>2021-10-16T16:00:00+09:00</updated><id>/2021/10/16/jenv-setting</id><content type="html" xml:base="/2021/10/16/jenv-setting.html">&lt;h2 id=&quot;환경의-변화&quot;&gt;환경의 변화&lt;/h2&gt;
+&lt;p&gt;개발자라면 새롭게 변화하는 모든 것에 대응해야 하는 것 같아요. 저도 안드로이드 개발을 하다보니 이제 최신 버전의 Android Gradle plugin을 사용하려면 Java 11 이상을 필요해졌습니다. 오늘 소개할 jenv은 Java를 사용하는 사용자라면 이런 어려움들을 충분히 해소할 수 있을 거라고 생각합니다.&lt;/p&gt;
 
-&lt;p&gt;테스트중입니다.&lt;/p&gt;
+&lt;h2 id=&quot;jenv&quot;&gt;jenv&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.jenv.be/&quot;&gt;공식 사이트&lt;/a&gt;의 설명을 참고해보니 ‘JAVA_HOME 환경 변수 세팅하는 방법을 깜박하지않는 커맨드 라인 툴’이라고 소개합니다.
+이름에서 유추할 수 있듯 j(Java) + Env(environment)를 합쳐 만든 이름 같아요.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-kotlin&quot; data-lang=&quot;kotlin&quot;&gt;&lt;span class=&quot;k&quot;&gt;suspend&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fun&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;bar&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;설치-및-설정&quot;&gt;설치 및 설정&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;테스트&lt;/code&gt;중입니다.&lt;/p&gt;
+&lt;h3 id=&quot;각-java-버전-설치&quot;&gt;각 Java 버전 설치&lt;/h3&gt;
+&lt;p&gt;저는 Java 8, 11을 때에 따라서 바꿔야 하는 상황이 종종 와서 아래처럼 brew로 &lt;a href=&quot;https://adoptopenjdk.net/&quot;&gt;AdoptOpenJEK&lt;/a&gt;를 설치해주었습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://yands11.github.io&quot;&gt;테스트&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="android" /><category term="kotlin" /><summary type="html">Header 테스트중입니다.</summary></entry></feed>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;brew &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cask&lt;/span&gt; adoptopenjdk/openjdk/adoptopenjdk8
+&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;brew &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cask&lt;/span&gt; adoptopenjdk/openjdk/adoptopenjdk11&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;jenv-설치&quot;&gt;jenv 설치&lt;/h3&gt;
+&lt;p&gt;이제 jenv를 설치합니다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jenv&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;zshrc에-jenv를-셋업&quot;&gt;~/.zshrc에 jenv를 셋업&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;vi ~/.zshrc 
+&lt;span class=&quot;go&quot;&gt;
+// 아래 두줄 추가
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;export PATH=&quot;$&lt;/span&gt;HOME/.jenv/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;eval &quot;$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;(jenv init -)&quot;&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;설치해두었던-java-버전들을-확인&quot;&gt;설치해두었던 Java 버전들을 확인&lt;/h3&gt;
+&lt;p&gt;저는 8, 11 두개가 표시되고 있습니다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; /Library/Java/JavaVirtualMachines
+&lt;span class=&quot;go&quot;&gt;adoptopenjdk-11.jdk adoptopenjdk-8.jdk&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;jenv에-각-java-버전을-추가&quot;&gt;jenv에 각 Java 버전을 추가&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;jenv에-추가된-java-확인&quot;&gt;jenv에 추가된 Java 확인&lt;/h3&gt;
+&lt;p&gt;현재 설정된 버전 앞에 ‘*‘표시가 있습니다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;jenv versions&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;global-버전-설정&quot;&gt;Global 버전 설정&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;jenv global openjdk64-11.0.11
+&lt;span class=&quot;go&quot;&gt;// Java 버전 확인
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;local-버전-설정&quot;&gt;Local 버전 설정&lt;/h3&gt;
+&lt;p&gt;특정 directory에서는 다른 버전을 사용해야하는 경우에는 아래와 같이 설정하면 됩니다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;jenv &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;openjdk64-11.0.11
+&lt;span class=&quot;go&quot;&gt;// Java 버전 확인
+&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;맺는-글&quot;&gt;맺는 글&lt;/h2&gt;
+&lt;p&gt;처음 사용할 버전만 jenv에 잘 추가해두면 언제든지 쉽게 jenv를 통해서 쉽게 Java 버전을 변경할 수 있으니 사용해보시면 좋을 것 같습니다.&lt;/p&gt;</content><author><name></name></author><summary type="html">환경의 변화 개발자라면 새롭게 변화하는 모든 것에 대응해야 하는 것 같아요. 저도 안드로이드 개발을 하다보니 이제 최신 버전의 Android Gradle plugin을 사용하려면 Java 11 이상을 필요해졌습니다. 오늘 소개할 jenv은 Java를 사용하는 사용자라면 이런 어려움들을 충분히 해소할 수 있을 거라고 생각합니다.</summary></entry></feed>
