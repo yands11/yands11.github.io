@@ -4,11 +4,14 @@ title: About
 permalink: /about/
 ---
 
-## 박영석
-Android Developer
+박영석, Android Developer
 
-#### 💼 Kakao 2021.10 - Now
+#HHKB #Vim
 
-#### 💼 Flitto 2017.07 - 2021.09 
+## Experience
 
-#### 💼 VOLO(SK Techx) 2016.10 - 2017.07
+`Kakao` 2021.10 - Now
+
+`Flitto` 2017.07 - 2021.09
+
+`VOLO(SK Techx)` 2016.10 - 2017.07
